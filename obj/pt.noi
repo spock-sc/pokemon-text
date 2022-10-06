@@ -1,0 +1,9 @@
+DEF .__.ABS. 0x0
+DEF l__DATA 0x0
+DEF l__CODE 0xB
+DEF s__CODE 0x4000
+DEF s__DATA 0x400B
+DEF _main 0x4000
+DEF nivel_1_1 0x4005
+DEF nivel_1_2 0x400B
+LOAD obj/pt.ihx

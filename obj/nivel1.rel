@@ -1,0 +1,12 @@
+XL2
+H 1 areas 3 global symbols
+S .__.ABS. Def0000
+A _CODE size 6 flags 0 addr 0
+S nivel_1_1 Def0000
+S nivel_1_2 Def0006
+T 00 00
+R 00 00 00 00
+T 00 00 3E 41 CD 5A BB C9
+R 00 00 00 00
+T 06 00
+R 00 00 00 00

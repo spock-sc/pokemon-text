@@ -1,0 +1,12 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 1.
+Hexadecimal [16-Bits]
+
+
+
+   0000                       1 nivel_1_1::
+   0000 3E 41         [ 7]    2    ld a, #'A'
+   0002 CD 5A BB      [17]    3    call  0xBB5A
+   0005 C9            [10]    4    ret
+                              5 
+   0006                       6 nivel_1_2::
+                              7   

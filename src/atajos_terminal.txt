@@ -1,0 +1,52 @@
+Atajos de teclado básicos de la terminal en GNU/Linux
+Escrito por picodotdev el 17/06/2016.
+gnu-linux planeta-codigo software-libre
+Enlace permanente Comentarios
+
+Aprender las combinaciones de teclas de aquellas aplicaciones que usamos frecuentemente y durante mucho tiempo nos ayuda a hacer las cosas en menos tiempo y de forma más sencilla. Cada aplicación tiene los suyos propios, en este artículo los de la terminal con el intérprete de comandos bash para GNU/Linux.
+
+
+GNU
+
+Linux
+
+Si no conoces lo que estás buscando una interfaz gráfica es una buena forma de descubrir cosas, si conoces exactamente lo que buscas y si lo tienes que hacer de forma repetida es tediosa y lenta. La terminal en GNU/Linux sigue siendo una poderosa herramienta para realizar multitud de tareas. Entre sus ventajas son realizar la tareas de forma mucho más directa y simple que con una interfaz gráfica o la posibilidad de automatizar tareas repetitivas en un script bash o en un lenguaje de programación como Python. Entre las desventajas de la línea de comandos está que no suele ser tan intuitiva como una interfaz gráfica. Dadas las ventajas de la terminal o línea de comandos para algunas personas su uso es muy frecuente y en GNU/Linux es común tener que usarla en algún momento, conocer las combinaciones de teclas que podemos usar la tarea será más fácil y la haremos rápidamente.
+
+En el intérprete de la terminal Bash podemos usar las siguientes combinaciones de teclas:
+
+Ctrl+a: lleva el cursor al inicio de la línea de comandos.
+Ctrl+e: lleva el cursor al final de la línea de comandos.
+Ctrl+l: limpia la terminal, similar a lo que hace el comando clear.
+Ctrl+u: limpia desde la posición del cursor hasta el inicio de la línea. Si se está al final limpia la línea entera.
+Ctrl+k: limpia desde la posición del cursor hasta el final de la línea. Si se está al inicio limpia la línea entera.
+Ctrl+h: hace lo mismo que la tecla backspace, borra el caracter inmediatamente anterior a la posición del cursor.
+Ctrl+w: borra la palabra inmediatamente antes del cursor.
+Alt+d o Esc+d: borra la palabra siguiente después del cursor.
+Ctrl+p: establece la línea de comandos con el último comando introducido.
+Ctrl+r: inicia la búsqueda de comandos usados anteriormente, tecleando parte de un comando usos anteriores que hayamos realizado incluyendo las opciones y parámetros. Hecha una búsqueda pulsando de nuevo la combinación de teclas encontraremos coincidencias anteriores.
+Ctrl+c: termina el proceso que se esté ejecutando, útil para recuperar el control del sistema.
+Ctrl+d: sale de la terminal, similar al comando exit.
+Ctrl+z: suspende la ejecución del proceso que se está ejecutando y lo pone en segundo plano, con el comando fg podremos volver a continuar su ejecución.
+Ctrl+t: intercambia la posición de los dos caracteres antes del cursor, útil para corregir malos tecleos.
+Esc+t: intercambia la posición de las dos palabras antes del cursor, útil para corregir malos tecleos.
+Alt+f: mueve el cursor al inicio de la palabra siguiente de la línea, lo mismo que Ctrl+right en la terminal de GNOME.
+Alt+b: mueve el cursor al inicio de la palabra anterior de la línea, lo mismo que Ctrl+left en la terminal de GNOME.
+Tab: autocompleta comandos o rutas de directorios o archivos.
+Poner comandos en segundo plano es útil si un proceso deja el sistema sin respuesta o queremos introducir otro antes de que termine el primero. Con tres comandos podemos manejar los procesos en primer y segundo plano:
+
+jobs: con este comando podremos ver la lista de procesos en segundo plano, con información de si están detenidos/suspendidos o en ejecución además del identificativo asignado para usar en los comandos fg y bg.
+fg: pone en primer plano un proceso, si estaba suspendido reanuda su ejecución.
+bg: continua la ejecución del proceso pero lo deja en segundo plano, si emite contenido a la terminal se mostrará y quizá nos moleste al seguir trabajando.
+kill: con el identificativo del proceso en segundo plano y un símbolo de porcentaje por delante podemos enviar la señal de terminado del proceso. Ejemplo, kill %1.
+Añadiendo un ampersand, &, al final del comando pondremos el comando en ejecución pero en segundo plano directamente.
+Las anteriores combinaciones de teclas son del intérprete de comandos bash, el emulador de terminal que usemos también incorpora algunas combinaciones de teclas más. En el caso del emulador del terminal de GNOME podemos usar las siguientes combinaciones muy útiles:
+
+Ctrl+Shift+f: abre un diálogo para hacer una búsqueda de texto en la salida de la terminal.
+Ctrl+Shift+g: busca la siguiente ocurrencia de la búsqueda previa en la terminal.
+Ctrl+Shift+h: busca la anterior ocurrencia de la búsqueda previa en la terminal.
+Ctrl+Shift+c: copia el texto seleccionado de la terminal al portapapeles.
+Ctrl+Shift+v: pega el texto del portapapeles en la línea de comandos.
+Up: establece en la línea de comandos el comando anterior del historial, igual que Ctrl+p.
+Down: establece en la línea de comandos el siguiente comando del historial.
+Left Mouse: selecciona líneas de texto de la terminal.
+Ctrl+Left Mouse: selecciona bloques de texto de la terminal.
