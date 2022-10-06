@@ -1,10 +1,4 @@
-Atajos de teclado básicos de la terminal en GNU/Linux
-Escrito por picodotdev el 17/06/2016.
-gnu-linux planeta-codigo software-libre
-Enlace permanente Comentarios
-
-Aprender las combinaciones de teclas de aquellas aplicaciones que usamos frecuentemente y durante mucho tiempo nos ayuda a hacer las cosas en menos tiempo y de forma más sencilla. Cada aplicación tiene los suyos propios, en este artículo los de la terminal con el intérprete de comandos bash para GNU/Linux.
-
+COMANDOS Y ATAJOS DE TECLADO PARA LINUX
 
 GNU
 
